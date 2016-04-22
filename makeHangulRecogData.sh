@@ -15,6 +15,7 @@ for p in $*;
 do
 	echo "make image with fond $p"
 	text2image --text=hangul_complete.txt --outputbase=hangul.$p --fonts_dir=./ --font=$p true --ptsize 50 
+	
 done
 
 
